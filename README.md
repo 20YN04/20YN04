@@ -31,11 +31,6 @@ Developer focused on crafting thoughtful digital experiences.
 
 Dutch · English
 
----
-
-## GitHub Stats
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=20YN04&show_icons=true&theme=catppuccin_mocha&hide_border=true&bg_color=00000000)
 
 ---
 
