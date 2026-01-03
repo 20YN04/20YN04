@@ -13,7 +13,6 @@ Developer focused on crafting thoughtful digital experiences.
 ![CSS](https://img.shields.io/badge/CSS-000000?style=for-the-badge&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logoColor=white)
-![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-000000?style=for-the-badge&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-000000?style=for-the-badge&logoColor=white)
 
