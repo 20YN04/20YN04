@@ -16,6 +16,10 @@ Developer focused on crafting thoughtful digital experiences.
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-000000?style=for-the-badge&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-000000?style=for-the-badge&logoColor=white)
 
+**Backend**  
+![PHP](https://img.shields.io/badge/PHP-000000?style=for-the-badge&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-000000?style=for-the-badge&logoColor=white)
+
 **Design**  
 ![Figma](https://img.shields.io/badge/Figma-000000?style=for-the-badge&logoColor=white)
 ![Adobe Illustrator](https://img.shields.io/badge/Adobe_Illustrator-000000?style=for-the-badge&logoColor=white)
@@ -33,4 +37,4 @@ Dutch · English
 
 ---
 
-**20YN04** · 2025
+**20YN04** · 2026
