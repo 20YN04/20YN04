@@ -25,15 +25,7 @@
   TOOLS       Git   GitHub   Vercel   VS Code
 ```
 
-<br>
 
-## ▰ &nbsp; PRINCIPLES
-
-```
-  01 / Build things that work, then make them feel good.
-  02 / Code is read more than it's written.
-  03 / Design is not decoration.
-```
 
 <br>
 
