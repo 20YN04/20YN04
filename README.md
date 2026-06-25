@@ -41,7 +41,7 @@
 <br>
 
 **Ynarchive — Portfolio** &nbsp;·&nbsp; studio site &nbsp;`in progress`
-<br><sub>Scroll-driven, award-tier frontend. The home of my own builds and client work.</sub>
+<br><sub>Scroll-driven, frontend. The home of my own builds and client work.</sub>
 <br>`Next.js` &nbsp;`GSAP` &nbsp;`Three.js`
 
 <br>
