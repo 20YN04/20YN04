@@ -55,7 +55,7 @@
 
 `NL` &nbsp;·&nbsp; `EN` &nbsp;·&nbsp; `20YN04`
 
-<sub>Graduating June 2026 &nbsp;·&nbsp; open to full-stack & AI engineering roles</sub>
+<sub>open to full-stack & AI engineering roles</sub>
 
 <sub>↳ Always shipping.</sub>
 
