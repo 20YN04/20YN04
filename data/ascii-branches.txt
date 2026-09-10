@@ -1,0 +1,19 @@
+
+                                          /-*-- refactor/rag-index --**--                                                 /-* feat/animated-profile-readme *-*
+                                         /                               \                                               /
+                                        /                                 \                                             /
+                                       /                                   \                                           /
+        /**- feat/kotscore-engine --*-/                                     \                   / test/browser-verify /-*---*--
+       /                             / \                                     \                 /                     /         \
+      /                             /   \                                     \               /                     /           \
+     /                             /     \                                     \             /                     /             \
+-o--o-----------------o-------o---o-------o-------o-----o---------o-----o-------o-----------o-----------o---------o---------------o---------o---------------o-
+                       \                           \   /                 \                 /                     /
+                        \                           \ /                   \               /                     /
+                         \                           \                     \             /                     /
+                          \-*-- fix/plate-mount --*-- \                     \-*-------*-/ docs/agents-block *-*
+                                                       \                               /
+                                                        \                             /
+                                                         \                           /
+                                                          \- chore/worktree-sweep *-*
+
