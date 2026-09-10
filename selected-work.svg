@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="862" height="328" viewBox="0 0 862.00 328.00" role="img" aria-label="Selected work">
+<title>selected work</title>
+<style>text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}.host{fill:#DCE1EC;font-size:14px;letter-spacing:.2px}.hint{fill:#454E63;font-size:10px;letter-spacing:1.4px}.k{fill:#828A9C;font-size:11px;letter-spacing:1.2px}.badge{fill:#454E63;font-size:10px;letter-spacing:1.4px}.badge.accent{fill:#2E63DC}.v{fill:#DCE1EC;font-size:12.5px}.vm{fill:#828A9C;font-size:11.5px}.vd{fill:#454E63;font-size:11px}.va{fill:#2E63DC;font-size:11px}</style>
+<rect x="0.5" y="0.5" width="861.00" height="327.00" rx="4" fill="#0A0C12" stroke="#1E2534"/>
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.000100;1" dur="0.460s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.000100;1" dur="0.460s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
+<text class="host" x="30.00" y="42.00">yentl@ynarchive</text>
+<text class="hint" x="832.00" y="42.00" text-anchor="end">SELECTED WORK</text>
+<rect x="30.00" y="54.00" width="802.00" height="1" fill="#1E2534"/>
+</g>
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.118774;1" dur="0.522s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.118774;1" dur="0.522s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
+<text class="k" x="30.00" y="82.00">KOTKOMPAS</text>
+<text class="badge" x="832.00" y="82.00" text-anchor="end">PUBLIC</text>
+<text class="v" x="132.00" y="82.00">student-housing review platform</text>
+</g>
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.212329;1" dur="0.584s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.212329;1" dur="0.584s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
+<text class="vm" x="132.00" y="102.00">KotScore engine — Bayesian rating, anti-manipulation, review privacy by design. 180+ commits.</text>
+</g>
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.287926;1" dur="0.646s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.287926;1" dur="0.646s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
+<text class="vd" x="132.00" y="122.00">Laravel · Livewire · Filament · PostgreSQL</text>
+</g>
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.350282;1" dur="0.708s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.350282;1" dur="0.708s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
+<text class="vd" x="132.00" y="142.00">github.com/woutvanlommel/KotKompas</text>
+</g>
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.402597;1" dur="0.770s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.402597;1" dur="0.770s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
+<text class="k" x="30.00" y="178.00">COEUS</text>
+<text class="badge" x="832.00" y="178.00" text-anchor="end">PRIVATE</text>
+<text class="v" x="132.00" y="178.00">white-label knowledge base</text>
+</g>
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.447115;1" dur="0.832s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.447115;1" dur="0.832s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
+<text class="vm" x="132.00" y="198.00">Local-first desktop app over your own docs — cited answers, swappable AI providers, offline.</text>
+</g>
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.485459;1" dur="0.894s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.485459;1" dur="0.894s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
+<text class="vd" x="132.00" y="218.00">Next.js · TypeScript · Tauri · RAG</text>
+</g>
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.518828;1" dur="0.956s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.518828;1" dur="0.956s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
+<text class="k" x="30.00" y="254.00">YNARCHIVE</text>
+<text class="badge accent" x="832.00" y="254.00" text-anchor="end">IN PROGRESS</text>
+<text class="v" x="132.00" y="254.00">studio site</text>
+</g>
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.548134;1" dur="1.018s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.548134;1" dur="1.018s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
+<text class="vm" x="132.00" y="274.00">Scroll-driven frontend. The home of my own builds and client work.</text>
+</g>
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.574074;1" dur="1.080s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.574074;1" dur="1.080s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
+<text class="vd" x="132.00" y="294.00">Next.js · GSAP · Three.js</text>
+</g>
+</svg>
