@@ -1,28 +1,22 @@
 <div align="center">
 
-![Yentl Banner](./banner.svg)
+<h3><code>yentl@ynarchive ~ $ git log --graph --oneline --all</code></h3>
+
+<img src="./ascii-branches.svg" width="862" alt="ASCII git graph: feature branches leaving main, merging back, and the last one still open" />
+
+<br><br>
+
+<h3><code>yentl@ynarchive ~ $ neofetch</code></h3>
+
+<img src="./info-card.svg" width="862" alt="Role, stack and current streak" />
+
+<br><br>
+
+<h3><code>yentl@ynarchive ~ $ ./contributions.sh</code></h3>
+
+<img src="./contrib-heatmap.svg" width="862" alt="Contribution heatmap for the last 53 weeks" />
 
 </div>
-
-<br>
-
-```
-─────────────────────────────────────────────────────────────────────
-  LOCATION                   Belgium  ·  EU
-─────────────────────────────────────────────────────────────────────
-```
-
-<br>
-
-## ▰ &nbsp; STACK
-
-```
-  FRONTEND    Next.js   Angular   React   TypeScript   Tailwind   GSAP   Leaflet   Vite
-  BACKEND     Laravel   Livewire   PHP   Python   Node.js   Supabase   PostgreSQL
-  SECURITY    Honeypots   Firewalls   Malware Analysis   PowerShell   Bash
-  DESIGN      Figma   Illustrator   Photoshop
-  TOOLS       Git   GitHub   Vercel   VS Code
-```
 
 <br>
 
@@ -46,8 +40,40 @@
 
 <br>
 
+## ▰ &nbsp; HOW THIS PAGE IS BUILT
 
-</div>
+<details>
+<summary>Three SVGs, no third-party services</summary>
+
+<br>
+
+GitHub strips `<script>` and inline CSS from a README, but it renders SVGs
+embedded through `<img>` with their animation intact. So every moving part
+lives inside the SVG file itself. Nothing here calls out to a badge service,
+so nothing here can rate-limit, go down, or start showing an ad.
+
+| File | What it is |
+| --- | --- |
+| `ascii-branches.svg` | The branch graph, drawn as ASCII and swept in left to right. |
+| `info-card.svg` | Neofetch-style card. The uptime line reads the real contribution data. |
+| `contrib-heatmap.svg` | 53 weeks × 7 days, scraped from the public profile page. No token needed. |
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -r scripts/requirements.txt
+
+python scripts/make_ascii_svg.py          # branch graph
+python scripts/fetch_contributions.py     # data/contributions.json
+python scripts/render_heatmap_svg.py      # heatmap
+python scripts/make_info_card.py          # card, reads the json above
+
+STATIC=1 python scripts/make_ascii_svg.py # frozen frame, for previewing
+```
+
+`.github/workflows/update-profile-art.yml` runs the last three every morning
+and commits the result, so the graph and the streak stay current on their own.
+
+</details>
 
 <br>
 
