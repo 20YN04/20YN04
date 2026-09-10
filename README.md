@@ -40,43 +40,6 @@
 
 <br>
 
-## ▰ &nbsp; HOW THIS PAGE IS BUILT
-
-<details>
-<summary>Three SVGs, no third-party services</summary>
-
-<br>
-
-GitHub strips `<script>` and inline CSS from a README, but it renders SVGs
-embedded through `<img>` with their animation intact. So every moving part
-lives inside the SVG file itself. Nothing here calls out to a badge service,
-so nothing here can rate-limit, go down, or start showing an ad.
-
-| File | What it is |
-| --- | --- |
-| `ascii-branches.svg` | The branch graph, drawn as ASCII and swept in left to right. |
-| `info-card.svg` | Neofetch-style card. The uptime line reads the real contribution data. |
-| `contrib-heatmap.svg` | 53 weeks × 7 days, scraped from the public profile page. No token needed. |
-
-```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -r scripts/requirements.txt
-
-python scripts/make_ascii_svg.py          # branch graph
-python scripts/fetch_contributions.py     # data/contributions.json
-python scripts/render_heatmap_svg.py      # heatmap
-python scripts/make_info_card.py          # card, reads the json above
-
-STATIC=1 python scripts/make_ascii_svg.py # frozen frame, for previewing
-```
-
-`.github/workflows/update-profile-art.yml` runs the last three every morning
-and commits the result, so the graph and the streak stay current on their own.
-
-</details>
-
-<br>
-
 <div align="center">
 
 `NL` &nbsp;·&nbsp; `EN` &nbsp;·&nbsp; `20YN04`
