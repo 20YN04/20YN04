@@ -16,6 +16,8 @@ from __future__ import annotations
 
 import os
 
+import _svg
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GRID_PATH = os.path.join(ROOT, "data", "ascii-branches.txt")
 OUT_PATH = os.path.join(ROOT, "ascii-branches.svg")
@@ -173,7 +175,7 @@ def render(cv, static=False):
     art_h = cv.rows * LINE_HEIGHT
     width = art_w + PAD_X * 2
     height = art_h + PAD_Y * 2 + CAPTION_H
-    sweep = 2200.0
+    sweep = 2.2
 
     o = []
     o.append(
@@ -191,28 +193,6 @@ def render(cv, static=False):
     for key, fill in CLASS_FILL.items():
         style.append(".%s{fill:%s}" % (key, fill))
     style.append(".cap{fill:%s;font-size:10px;letter-spacing:1.4px}" % C_MUTED)
-    if not static:
-        style.append(
-            ".art{clip-path:inset(0 100%% 0 0);"
-            "animation:sweep %.0fms cubic-bezier(.22,1,.36,1) both}" % sweep
-        )
-        style.append("@keyframes sweep{to{clip-path:inset(0 0 0 0)}}")
-        style.append(
-            ".head{animation:head %.0fms cubic-bezier(.22,1,.36,1) both}" % sweep
-        )
-        style.append(
-            "@keyframes head{0%%{transform:translateX(0);opacity:1}"
-            "88%%{opacity:1}100%%{transform:translateX(%.2fpx);opacity:0}}" % art_w
-        )
-        style.append(
-            ".cap{opacity:0;animation:fade 600ms ease-out %.0fms both}" % (sweep - 200)
-        )
-        style.append("@keyframes fade{to{opacity:1}}")
-        style.append(
-            "@media(prefers-reduced-motion:reduce){"
-            ".art{clip-path:none;animation:none}"
-            ".head{display:none}.cap{opacity:1;animation:none}}"
-        )
     o.append("<style>%s</style>" % "".join(style))
 
     o.append(
@@ -220,7 +200,16 @@ def render(cv, static=False):
         'stroke="%s"/>' % (width - 1, height - 1, C_BG, C_BORDER)
     )
 
-    o.append('<g class="art">')
+    if static:
+        o.append("<g>")
+    else:
+        o.append(
+            '<defs><clipPath id="sweep"><rect x="%.2f" y="0" width="%.2f" '
+            'height="%.2f">%s</rect></clipPath></defs>'
+            % (PAD_X, art_w, height, _svg.wipe(art_w, sweep))
+        )
+        o.append('<g clip-path="url(#sweep)">')
+
     baseline = PAD_Y + FONT_SIZE
     for r in range(cv.rows):
         parts = []
@@ -234,15 +223,21 @@ def render(cv, static=False):
     o.append("</g>")
 
     if not static:
+        # the playhead rides the wipe edge, then leaves. Hidden when frozen.
         o.append(
-            '<rect class="head" x="%.2f" y="%.2f" width="1" height="%.2f" '
-            'fill="%s"/>' % (PAD_X, PAD_Y - 4, art_h + 8, C_ACCENT)
+            '<rect x="%.2f" y="%.2f" width="1" height="%.2f" fill="%s" opacity="0">'
+            '%s'
+            '<animateTransform attributeName="transform" type="translate" '
+            'values="0 0;%.2f 0" dur="%.3fs" fill="freeze" calcMode="spline" '
+            'keyTimes="0;1" keySplines="%s"/></rect>'
+            % (PAD_X, PAD_Y - 4, art_h + 8, C_ACCENT, _svg.playhead(sweep),
+               art_w, sweep, _svg.EASE)
         )
 
-    o.append(
-        '<text class="cap" x="%.2f" y="%.2f" xml:space="preserve">%s</text>'
-        % (PAD_X, height - PAD_Y + 6, esc(CAPTION))
-    )
+    o.append("<g>%s<text class=\"cap\" x=\"%.2f\" y=\"%.2f\" "
+             "xml:space=\"preserve\">%s</text></g>"
+             % ("" if static else _svg.reveal(sweep - 0.2, 0.6),
+                PAD_X, height - PAD_Y + 6, esc(CAPTION)))
     o.append("</svg>")
     return "\n".join(o) + "\n"
 

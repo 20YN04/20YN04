@@ -14,6 +14,8 @@ from __future__ import annotations
 import json
 import os
 
+import _svg
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "contributions.json")
 OUT = os.path.join(ROOT, "info-card.svg")
@@ -83,21 +85,17 @@ def render(static=False):
         ".v{fill:%s;font-size:12.5px}" % C_INK,
         ".v.accent{fill:%s}" % C_ACCENT,
     ]
-    if not static:
-        style.append(".r{opacity:0;animation:in 460ms cubic-bezier(.22,1,.36,1) both}")
-        style.append("@keyframes in{from{opacity:0;transform:translateX(-10px)}"
-                     "to{opacity:1;transform:none}}")
-        style.append("@media(prefers-reduced-motion:reduce){"
-                     ".r{opacity:1;animation:none}}")
     o.append("<style>%s</style>" % "".join(style))
 
     o.append('<rect x="0.5" y="0.5" width="%.2f" height="%.2f" rx="4" fill="%s" '
              'stroke="%s"/>' % (WIDTH - 1, height - 1, C_BG, C_BORDER))
 
-    def delay(i):
-        return "" if static else ' style="animation-delay:%.0fms"' % (i * 62)
+    def anim(i):
+        if static:
+            return ""
+        return _svg.reveal(i * 0.062) + _svg.slide(i * 0.062)
 
-    o.append('<g class="r"%s>' % delay(0))
+    o.append("<g>%s" % anim(0))
     o.append('<text class="host" x="%.2f" y="%.2f">%s</text>'
              % (PAD_X, PAD_Y + 16, esc(HOST)))
     o.append('<text class="hint" x="%.2f" y="%.2f" text-anchor="end">NEOFETCH</text>'
@@ -109,7 +107,7 @@ def render(static=False):
     y = PAD_Y + HEAD_H + 12
     for i, (key, value, tone) in enumerate(rows):
         cls = "v accent" if tone == "accent" else "v"
-        o.append('<g class="r"%s>' % delay(i + 1))
+        o.append("<g>%s" % anim(i + 1))
         o.append('<text class="k" x="%.2f" y="%.2f">%s</text>'
                  % (PAD_X + KEY_X - 30, y + i * ROW_H, esc(key.upper())))
         o.append('<text class="%s" x="%.2f" y="%.2f">%s</text>'

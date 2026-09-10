@@ -13,6 +13,8 @@ from __future__ import annotations
 
 import json
 import os
+
+import _svg
 from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -102,18 +104,6 @@ def render(payload, static=False):
         ".foot{fill:%s;font-size:10.5px;letter-spacing:.3px}" % C_MUTED,
         ".hi{fill:%s}" % C_INK,
     ]
-    if not static:
-        style.append(
-            ".c{opacity:0;transform-box:fill-box;transform-origin:center;"
-            "animation:pop 420ms cubic-bezier(.22,1,.36,1) both}")
-        style.append(
-            "@keyframes pop{from{opacity:0;transform:translateY(-3px) scale(.55)}"
-            "to{opacity:1;transform:none}}")
-        style.append(".meta{opacity:0;animation:fade 600ms ease-out %.0fms both}"
-                     % (span + 240))
-        style.append("@keyframes fade{to{opacity:1}}")
-        style.append("@media(prefers-reduced-motion:reduce){"
-                     ".c{opacity:1;animation:none}.meta{opacity:1;animation:none}}")
     o.append("<style>%s</style>" % "".join(style))
 
     o.append('<rect x="0.5" y="0.5" width="%.2f" height="%.2f" rx="4" fill="%s" '
@@ -138,11 +128,10 @@ def render(payload, static=False):
 
     # the grid — a diagonal sweep, top-left to bottom-right
     for week, row, entry, level in cells:
-        delay = "" if static else ' style="animation-delay:%.0fms"' % (
-            week * 16.0 + row * 26.0)
+        delay = "" if static else _svg.reveal(week * 0.016 + row * 0.026, 0.42)
         o.append(
-            '<rect class="c" x="%.2f" y="%.2f" width="%.2f" height="%.2f" rx="2" '
-            'fill="%s"%s><title>%s on %s</title></rect>'
+            '<rect x="%.2f" y="%.2f" width="%.2f" height="%.2f" rx="2" '
+            'fill="%s">%s<title>%s on %s</title></rect>'
             % (grid_x + week * pitch, grid_y + row * pitch, size, size,
                RAMP[level], delay,
                esc("%d contribution%s" % (entry["count"],
@@ -152,7 +141,7 @@ def render(payload, static=False):
 
     # footer: legend left, the numbers that matter right
     fy = grid_y + grid_h + 22
-    o.append('<g class="meta">')
+    o.append("<g>%s" % ("" if static else _svg.reveal(span / 1000.0 + 0.24, 0.6)))
     o.append('<text class="foot" x="%.2f" y="%.2f">Less</text>' % (PAD_X, fy))
     lx = PAD_X + 30
     for i, colour in enumerate(RAMP):

@@ -1,53 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="862" height="360" viewBox="0 0 862.00 360.00" role="img" aria-label="yentl@ynarchive">
 <title>yentl@ynarchive</title>
-<style>text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}.host{fill:#DCDCD6;font-size:14px;letter-spacing:.2px}.hint{fill:#4A4A44;font-size:10px;letter-spacing:1.4px}.k{fill:#8A8A85;font-size:11px;letter-spacing:1.2px}.v{fill:#DCDCD6;font-size:12.5px}.v.accent{fill:#C2410C}.r{opacity:0;animation:in 460ms cubic-bezier(.22,1,.36,1) both}@keyframes in{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}@media(prefers-reduced-motion:reduce){.r{opacity:1;animation:none}}</style>
+<style>text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}.host{fill:#DCDCD6;font-size:14px;letter-spacing:.2px}.hint{fill:#4A4A44;font-size:10px;letter-spacing:1.4px}.k{fill:#8A8A85;font-size:11px;letter-spacing:1.2px}.v{fill:#DCDCD6;font-size:12.5px}.v.accent{fill:#C2410C}</style>
 <rect x="0.5" y="0.5" width="861.00" height="359.00" rx="4" fill="#0C0C0B" stroke="#2A2A27"/>
-<g class="r" style="animation-delay:0ms">
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.000100;1" dur="0.460s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.000100;1" dur="0.460s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
 <text class="host" x="30.00" y="42.00">yentl@ynarchive</text>
 <text class="hint" x="832.00" y="42.00" text-anchor="end">NEOFETCH</text>
 <rect x="30.00" y="54.00" width="802.00" height="1" fill="#2A2A27"/>
 </g>
-<g class="r" style="animation-delay:62ms">
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.118774;1" dur="0.522s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.118774;1" dur="0.522s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
 <text class="k" x="30.00" y="82.00">ROLE</text>
 <text class="v" x="132.00" y="82.00">Solo designer + full-stack developer</text>
 </g>
-<g class="r" style="animation-delay:124ms">
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.212329;1" dur="0.584s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.212329;1" dur="0.584s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
 <text class="k" x="30.00" y="106.00">BASE</text>
 <text class="v" x="132.00" y="106.00">Belgium · EU · NL / EN</text>
 </g>
-<g class="r" style="animation-delay:186ms">
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.287926;1" dur="0.646s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.287926;1" dur="0.646s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
 <text class="k" x="30.00" y="130.00">FRONT</text>
 <text class="v" x="132.00" y="130.00">Next.js · React · Angular · TypeScript · Tailwind · Vite</text>
 </g>
-<g class="r" style="animation-delay:248ms">
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.350282;1" dur="0.708s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.350282;1" dur="0.708s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
 <text class="k" x="30.00" y="154.00">BACK</text>
 <text class="v" x="132.00" y="154.00">Laravel · Livewire · Python · Node.js · PostgreSQL · Supabase</text>
 </g>
-<g class="r" style="animation-delay:310ms">
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.402597;1" dur="0.770s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.402597;1" dur="0.770s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
 <text class="k" x="30.00" y="178.00">MOTION</text>
 <text class="v" x="132.00" y="178.00">GSAP · Three.js · scroll-driven frontends</text>
 </g>
-<g class="r" style="animation-delay:372ms">
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.447115;1" dur="0.832s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.447115;1" dur="0.832s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
 <text class="k" x="30.00" y="202.00">SECURITY</text>
 <text class="v" x="132.00" y="202.00">Honeypots · firewalls · malware analysis</text>
 </g>
-<g class="r" style="animation-delay:434ms">
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.485459;1" dur="0.894s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.485459;1" dur="0.894s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
 <text class="k" x="30.00" y="226.00">DESIGN</text>
 <text class="v" x="132.00" y="226.00">Figma · Swiss grid · four colours, one accent</text>
 </g>
-<g class="r" style="animation-delay:496ms">
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.518828;1" dur="0.956s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.518828;1" dur="0.956s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
 <text class="k" x="30.00" y="250.00">SHELL</text>
 <text class="v" x="132.00" y="250.00">zsh · macOS · Obsidian second brain</text>
 </g>
-<g class="r" style="animation-delay:558ms">
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.548134;1" dur="1.018s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.548134;1" dur="1.018s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
 <text class="k" x="30.00" y="274.00">UPTIME</text>
 <text class="v" x="132.00" y="274.00">4,759 contributions this year · 5 day streak · longest 40</text>
 </g>
-<g class="r" style="animation-delay:620ms">
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.574074;1" dur="1.080s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.574074;1" dur="1.080s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
 <text class="k" x="30.00" y="298.00">RULE</text>
 <text class="v accent" x="132.00" y="298.00">never commit straight to main</text>
 </g>
-<g class="r" style="animation-delay:682ms">
+<g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.597198;1" dur="1.142s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.597198;1" dur="1.142s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
 <text class="k" x="30.00" y="322.00">OPEN TO</text>
 <text class="v accent" x="132.00" y="322.00">full-stack &amp; AI engineering roles</text>
 </g>
