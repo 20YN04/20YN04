@@ -29,14 +29,14 @@ GAP = 3.0
 MONTH_H = 18.0
 FOOT_H = 34.0
 
-C_BG = "#0C0C0B"
-C_BORDER = "#2A2A27"
-C_INK = "#DCDCD6"
-C_MUTED = "#8A8A85"
-C_DIM = "#5A5A54"
+C_BG = "#0A0C12"
+C_BORDER = "#1E2534"
+C_INK = "#DCE1EC"
+C_MUTED = "#828A9C"
+C_DIM = "#545C70"
 
 # none → busiest. Warm Dark accent ramp, vault: Design & Styles/Mainstyle.md
-RAMP = ["#191917", "#4A2410", "#7A360D", "#A8420C", "#C2410C", "#E8763A"]
+RAMP = ["#141824", "#13275C", "#1A3A8F", "#2450BE", "#2E63DC", "#5C8CF0"]
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]

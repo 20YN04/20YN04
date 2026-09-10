@@ -31,12 +31,12 @@ PAD_Y = 22.0
 CAPTION_H = 28.0
 
 # Warm Dark palette — vault: Design & Styles/Mainstyle.md
-C_BG = "#0C0C0B"
-C_BORDER = "#2A2A27"
-C_INK = "#DCDCD6"
-C_MUTED = "#8A8A85"
-C_DIM = "#4A4A44"
-C_ACCENT = "#C2410C"
+C_BG = "#0A0C12"
+C_BORDER = "#1E2534"
+C_INK = "#DCE1EC"
+C_MUTED = "#828A9C"
+C_DIM = "#454E63"
+C_ACCENT = "#2E63DC"
 
 CLASS_FILL = {"i": C_INK, "m": C_MUTED, "d": C_DIM, "a": C_ACCENT}
 
