@@ -1,18 +1,12 @@
 <div align="center">
 
-<h3><code>yentl@ynarchive ~ $ git log --graph --oneline --all</code></h3>
-
-<img src="./ascii-branches.svg" width="862" alt="ASCII git graph: feature branches leaving main, merging back, and the last one still open" />
+<img src="./ascii-branches.gif" width="862" alt="ASCII git graph: feature branches leaving main, merging back, and the last one still open" />
 
 <br><br>
-
-<h3><code>yentl@ynarchive ~ $ neofetch</code></h3>
 
 <img src="./info-card.svg" width="862" alt="Role, stack and current streak" />
 
 <br><br>
-
-<h3><code>yentl@ynarchive ~ $ ./contributions.sh</code></h3>
 
 <img src="./contrib-heatmap.svg" width="862" alt="Contribution heatmap for the last 53 weeks" />
 
