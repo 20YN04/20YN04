@@ -58,8 +58,8 @@ def uptime():
             payload = json.load(fh)
     except (IOError, ValueError):
         return "—"
-    return "{:,} contributions this year · {} day streak · longest {}".format(
-        payload["total"], payload["current_streak"], payload["longest_streak"])
+    # total, streak and longest already live on the heatmap. Show what it does not.
+    return "{:,} active days in the last 12 months".format(payload["active_days"])
 
 
 def esc(text):

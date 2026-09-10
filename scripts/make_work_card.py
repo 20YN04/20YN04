@@ -35,7 +35,7 @@ C_MUTED = "#828A9C"
 C_DIM = "#454E63"
 C_ACCENT = "#2E63DC"
 
-HOST = "yentl@ynarchive"
+TITLE = "selected work"
 
 # (name, badge, badge_tone, [(line, tone), ...])
 WORK = [
@@ -103,9 +103,9 @@ def render(static=False):
 
     o.append("<g>%s" % anim(0))
     o.append('<text class="host" x="%.2f" y="%.2f">%s</text>'
-             % (PAD_X, PAD_Y + 16, esc(HOST)))
-    o.append('<text class="hint" x="%.2f" y="%.2f" text-anchor="end">'
-             'SELECTED WORK</text>' % (WIDTH - PAD_X, PAD_Y + 16))
+             % (PAD_X, PAD_Y + 16, esc(TITLE)))
+    o.append('<text class="hint" x="%.2f" y="%.2f" text-anchor="end">%d '
+             'PROJECTS</text>' % (WIDTH - PAD_X, PAD_Y + 16, len(WORK)))
     o.append('<rect x="%.2f" y="%.2f" width="%.2f" height="1" fill="%s"/>'
              % (PAD_X, PAD_Y + 28, WIDTH - PAD_X * 2, C_BORDER))
     o.append("</g>")
