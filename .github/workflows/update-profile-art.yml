@@ -2,7 +2,11 @@ name: Update profile art
 
 "on":
   schedule:
+    # GitHub's scheduler is best effort and drops slots under load, so there are
+    # two. The evening one both covers a missed morning run and catches the day's
+    # own commits. A run that finds nothing changed commits nothing.
     - cron: "17 6 * * *"
+    - cron: "29 20 * * *"
   workflow_dispatch: {}
   push:
     branches: [main]
