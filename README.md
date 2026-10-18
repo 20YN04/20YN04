@@ -12,7 +12,7 @@
 
 <br><br>
 
-<img src="./selected-work.svg" width="862" alt="Selected work: KotKompas, Coeus, Ynarchive" />
+<img src="./selected-work.svg" width="862" alt="Selected work: Declarebase, KotKompas, Coeus, Ynarchive" />
 
 </div>
 

@@ -39,6 +39,13 @@ TITLE = "selected work"
 
 # (name, badge, badge_tone, [(line, tone), ...])
 WORK = [
+    ("Declarebase", "live", "accent", [
+        ("compliance for construction and CBAM importers", "ink"),
+        ("DoP, datasheet and CE per building product, checked at the source. "
+         "Label scan, quoted answers.", "muted"),
+        ("Next.js · Django · PostgreSQL · pgvector", "dim"),
+        ("declarebase.com", "dim"),
+    ]),
     ("KotKompas", "public", "dim", [
         ("student-housing review platform", "ink"),
         ("KotScore engine — Bayesian rating, anti-manipulation, "
