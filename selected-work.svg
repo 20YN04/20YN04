@@ -27,7 +27,7 @@
 <text class="v" x="132.00" y="178.00">student-housing review platform</text>
 </g>
 <g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.447115;1" dur="0.832s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.447115;1" dur="0.832s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
-<text class="vm" x="132.00" y="198.00">KotScore engine — Bayesian rating, anti-manipulation, review privacy by design. 180+ commits.</text>
+<text class="vm" x="132.00" y="198.00">KotScore engine: Bayesian rating, anti-manipulation, review privacy by design. 180+ commits.</text>
 </g>
 <g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.485459;1" dur="0.894s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.485459;1" dur="0.894s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
 <text class="vd" x="132.00" y="218.00">Laravel · Livewire · Filament · PostgreSQL</text>
@@ -41,7 +41,7 @@
 <text class="v" x="132.00" y="274.00">white-label knowledge base</text>
 </g>
 <g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.574074;1" dur="1.080s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.574074;1" dur="1.080s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
-<text class="vm" x="132.00" y="294.00">Local-first desktop app over your own docs — cited answers, swappable AI providers, offline.</text>
+<text class="vm" x="132.00" y="294.00">Local-first desktop app over your own docs. Cited answers, swappable AI providers, offline.</text>
 </g>
 <g><animate attributeName="opacity" values="1;0;0;1" keyTimes="0;0.000100;0.597198;1" dur="1.142s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/><animateTransform attributeName="transform" type="translate" values="0 0;-10.0 0;-10.0 0;0 0" keyTimes="0;0.000100;0.597198;1" dur="1.142s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;.22 1 .36 1"/>
 <text class="vd" x="132.00" y="314.00">Next.js · TypeScript · Tauri · RAG</text>

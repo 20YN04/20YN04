@@ -48,14 +48,14 @@ WORK = [
     ]),
     ("KotKompas", "public", "dim", [
         ("student-housing review platform", "ink"),
-        ("KotScore engine — Bayesian rating, anti-manipulation, "
+        ("KotScore engine: Bayesian rating, anti-manipulation, "
          "review privacy by design. 180+ commits.", "muted"),
         ("Laravel · Livewire · Filament · PostgreSQL", "dim"),
         ("github.com/woutvanlommel/KotKompas", "dim"),
     ]),
     ("Coeus", "private", "dim", [
         ("white-label knowledge base", "ink"),
-        ("Local-first desktop app over your own docs — cited answers, "
+        ("Local-first desktop app over your own docs. Cited answers, "
          "swappable AI providers, offline.", "muted"),
         ("Next.js · TypeScript · Tauri · RAG", "dim"),
     ]),
