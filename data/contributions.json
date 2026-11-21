@@ -1,18 +1,18 @@
 {
  "user": "20YN04",
- "generated_at": "2026-11-21T01:39:51Z",
+ "generated_at": "2026-11-21T14:40:19Z",
  "range": {
   "from": "2025-11-16",
   "to": "2026-11-21"
  },
- "total": 15318,
- "current_streak": 76,
- "longest_streak": 76,
+ "total": 15336,
+ "current_streak": 77,
+ "longest_streak": 77,
  "best_day": {
   "date": "2026-09-28",
   "count": 465
  },
- "active_days": 309,
+ "active_days": 310,
  "months": {
   "2025-11": 173,
   "2025-12": 383,
@@ -26,7 +26,7 @@
   "2026-08": 1452,
   "2026-09": 3400,
   "2026-10": 4813,
-  "2026-11": 2018
+  "2026-11": 2036
  },
  "days": [
   {
@@ -1881,8 +1881,8 @@
   },
   {
    "date": "2026-11-21",
-   "count": 0,
-   "level": 0
+   "count": 18,
+   "level": 1
   }
  ]
 }
